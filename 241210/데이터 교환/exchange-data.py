@@ -1,5 +1,9 @@
 a,b,c=5,6,7
-a,b,c=c,a,b
+temp = a
+
+a = c
+c = b
+b = temp
 
 print(f"{a}")
 print(f"{b}")
